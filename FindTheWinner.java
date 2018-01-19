@@ -32,8 +32,6 @@ public class FindTheWinner {
             }
             String s = args[aCount+mCount+2];
             String result = winner(andrea, maria, s);
-
-            System.out.println(result);
         }catch (Exception e) {
             e.printStackTrace();
         }
